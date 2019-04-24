@@ -17,10 +17,10 @@ from keras.callbacks import EarlyStopping
 
 def getStuff():return ["Emotion Score","ID","Date","Query","Name","Tweet"],0.0075
 
-consumer_key = "dR8pZopaDJDsDeTeMJ9gFvrc6" 
-consumer_secret = "UMvDkT6QtWqVaunFnK98g0OqROy4sSqs2MRPHOfpbFw0DF3uL4"
-access_token = "891797207543947266-sr5LGjLThE9qPsTA2frgDps1acwXHyI"
-access_token_secret = "xMLxv20C3vqXvpLA0X47PXB1lEu3p7TebgYXadRjVM5aA"
+consumer_key = "" 
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 count, topics, title, category = 5000, [["#anxiety","#depression","#suicide"],"#neutral"], [], []
 
